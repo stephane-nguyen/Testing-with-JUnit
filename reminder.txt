@@ -1,0 +1,5 @@
+We can see custom messages & reports thanks to the sunfire plugin that you have to add to the pom.xml
+ 
+mvn surefire-report:report in the cmd to run/update the report 
+
+Go to : target -> site/surefire-reports to see the tests failed/succeeded

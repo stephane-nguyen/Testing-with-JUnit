@@ -27,7 +27,7 @@ public class BankAccountNestedTest {
         @Test
         public void testWithdrawMinimumBalanceIs0(){
             BankAccount bankAccount = new BankAccount(500, 0);
-            assertThrows(RuntimeException.class,() -> bankAccount.withdraw(500));
+            assertThrows(RuntimeException.class, () -> bankAccount.withdraw(500));
         }
         @Test
         public void testWithdrawMinimumBalanceNegative1000(){
